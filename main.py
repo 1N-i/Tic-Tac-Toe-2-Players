@@ -8,4 +8,8 @@ for round in range(9):
         print(f"Victory of '{player}'")
         table()
         break
+    elif verify_end_game(round) == "Draw":
+        print("Draw")
+        table()
+        break
     player = switch_player(player)

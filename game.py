@@ -32,7 +32,7 @@ def verify_end_game(round): #All options of a winner or a draw
     position[2] == position[4] == position[6]:
         return True
     elif round == 8:
-        return True
+        return "Draw"
     
 def switch_player(player): #Switch the player
     if player == "X":
